@@ -4,6 +4,61 @@
  * Church Graphics, Restaurant Menus, and Logo Marks.
  */
 const portfolioItems = [
+{
+        "id": "abike-brand-suite",
+        "category": "Posters & Flyers",
+        "tags": ["Branding", "Packaging", "3D Render", "Commercial", "Abike Olororo"],
+        "desc": "End-to-end commercial brand campaign and packaging visuals for Abìkè Olóròró premium vegetable oil, featuring 3D bottle renders and high-conversion social creatives.",
+        "badge": "Product Suite",
+        "cover": "assets/brands/abike/abike-oil-bottles.jpg",
+        "brand": "Abìkè Olóròró",
+        "title": "Abìkè Olóròró — Brand Campaign & 3D Packaging",
+        "isCarousel": false
+    },
+    {
+        "id": "creaverse-studio-campaign",
+        "category": "Posters & Flyers",
+        "tags": ["Creative Ad", "Photo Manipulation", "Social Media", "Creaverse"],
+        "desc": "High-concept promotional campaign and surreal visual storytelling for Creaverse Studio, designed to challenge conventional social media branding.",
+        "badge": "Creative Ad",
+        "cover": "assets/brands/creaverse/creaverse-turtle.jpg",
+        "brand": "Creaverse Studio",
+        "title": "Creaverse Studio — Speed Up Your Brand Campaign",
+        "isCarousel": false
+    },
+    {
+        "id": "smoothiezee-brand-packaging",
+        "category": "Posters & Flyers",
+        "tags": ["Packaging", "F&B", "Mockup", "Identity", "Smoothiezee"],
+        "desc": "Clean visual identity, bottle labeling, and custom sandwich packaging mockups crafted for Smoothiezee gourmet breakfast bar.",
+        "badge": "Packaging Design",
+        "cover": "assets/brands/smoothiezee/smoothiezee-pack.jpg",
+        "brand": "Smoothiezee",
+        "title": "Smoothiezee — Fresh Juice & Meal Packaging",
+        "isCarousel": false
+    },
+    {
+        "id": "ask-abike-thought-leadership",
+        "category": "Social Media",
+        "tags": ["Social Media", "Executive Brand", "Typography", "Ask Abike"],
+        "desc": "Polished workplace leadership graphics and corporate quote cards crafted for Ask Abike's executive social presence.",
+        "badge": "Personal Brand",
+        "cover": "assets/brands/ask-abike/ask-abike-quote-1.jpg",
+        "brand": "Ask Abike",
+        "title": "Ask Abike — Executive Leadership Series",
+        "isCarousel": false
+    },
+    {
+        "id": "cowi-world-food-day",
+        "category": "Posters & Flyers",
+        "tags": ["CSR", "Non-Profit", "Awareness", "COWI"],
+        "desc": "Vibrant commemorative awareness poster created for Child of Wealth Initiative celebrating World Food Day.",
+        "badge": "Awareness Flyer",
+        "cover": "assets/brands/cowi/world-food-day.jpg",
+        "brand": "COWI",
+        "title": "Child of Wealth Initiative — World Food Day Visual",
+        "isCarousel": false
+    },
     {
         "id":  "cowi-carousel-1",
         "slides":  [
