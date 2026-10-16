@@ -1,64 +1,9 @@
 /**
  * ImagineX Studio — Pius Christopher Portfolio Dataset
- * Contains 71 curated creative works spanning Carousels, Posters, Social Retainers,
- * Church Graphics, Restaurant Menus, and Logo Marks.
+ * Contains 78 curated creative works spanning Carousels, Posters, Social Retainers,
+ * Church Graphics, Restaurant Menus, Food Packaging, and Logo Marks.
  */
 const portfolioItems = [
-{
-        "id": "abike-brand-suite",
-        "category": "Posters & Flyers",
-        "tags": ["Branding", "Packaging", "3D Render", "Commercial", "Abike Olororo"],
-        "desc": "End-to-end commercial brand campaign and packaging visuals for Abìkè Olóròró premium vegetable oil, featuring 3D bottle renders and high-conversion social creatives.",
-        "badge": "Product Suite",
-        "cover": "assets/brands/abike/abike-oil-bottles.jpg",
-        "brand": "Abìkè Olóròró",
-        "title": "Abìkè Olóròró — Brand Campaign & 3D Packaging",
-        "isCarousel": false
-    },
-    {
-        "id": "creaverse-studio-campaign",
-        "category": "Posters & Flyers",
-        "tags": ["Creative Ad", "Photo Manipulation", "Social Media", "Creaverse"],
-        "desc": "High-concept promotional campaign and surreal visual storytelling for Creaverse Studio, designed to challenge conventional social media branding.",
-        "badge": "Creative Ad",
-        "cover": "assets/brands/creaverse/creaverse-turtle.jpg",
-        "brand": "Creaverse Studio",
-        "title": "Creaverse Studio — Speed Up Your Brand Campaign",
-        "isCarousel": false
-    },
-    {
-        "id": "smoothiezee-brand-packaging",
-        "category": "Posters & Flyers",
-        "tags": ["Packaging", "F&B", "Mockup", "Identity", "Smoothiezee"],
-        "desc": "Clean visual identity, bottle labeling, and custom sandwich packaging mockups crafted for Smoothiezee gourmet breakfast bar.",
-        "badge": "Packaging Design",
-        "cover": "assets/brands/smoothiezee/smoothiezee-pack.jpg",
-        "brand": "Smoothiezee",
-        "title": "Smoothiezee — Fresh Juice & Meal Packaging",
-        "isCarousel": false
-    },
-    {
-        "id": "ask-abike-thought-leadership",
-        "category": "Social Media",
-        "tags": ["Social Media", "Executive Brand", "Typography", "Ask Abike"],
-        "desc": "Polished workplace leadership graphics and corporate quote cards crafted for Ask Abike's executive social presence.",
-        "badge": "Personal Brand",
-        "cover": "assets/brands/ask-abike/ask-abike-quote-1.jpg",
-        "brand": "Ask Abike",
-        "title": "Ask Abike — Executive Leadership Series",
-        "isCarousel": false
-    },
-    {
-        "id": "cowi-world-food-day",
-        "category": "Posters & Flyers",
-        "tags": ["CSR", "Non-Profit", "Awareness", "COWI"],
-        "desc": "Vibrant commemorative awareness poster created for Child of Wealth Initiative celebrating World Food Day.",
-        "badge": "Awareness Flyer",
-        "cover": "assets/brands/cowi/world-food-day.jpg",
-        "brand": "COWI",
-        "title": "Child of Wealth Initiative — World Food Day Visual",
-        "isCarousel": false
-    },
     {
         "id":  "cowi-carousel-1",
         "slides":  [
@@ -812,6 +757,125 @@ const portfolioItems = [
         "cover":  "assets/brands/cowi/flyers/webinar-design.png",
         "brand":  "COWI",
         "title":  "COWI Youth Empowerment Webinar",
+        "isCarousel":  false
+    },
+    {
+        "id":  "cowi-flyer-world-food-day",
+        "category":  "Posters & Flyers",
+        "tags":  [
+                     "World Food Day",
+                     "Advocacy",
+                     "Nutrition",
+                     "Poster",
+                     "COWI"
+                 ],
+        "desc":  "Vibrant global nutrition and food security advocacy poster created for Child of Wealth Initiative to celebrate World Food Day.",
+        "badge":  "Advocacy Poster",
+        "cover":  "assets/brands/cowi/flyers/world-food-day.jpg.png",
+        "brand":  "COWI",
+        "title":  "Happy World Food Day — Nutrition Advocacy Poster",
+        "isCarousel":  false
+    },
+    {
+        "id":  "abike-oil-bottles",
+        "category":  "Posters & Flyers",
+        "tags":  [
+                     "Product Ad",
+                     "Branding",
+                     "Cooking Oil",
+                     "Flyer",
+                     "Abike Olororo"
+                 ],
+        "desc":  "Premium commercial advertising poster featuring 3D bottle rendering and organic ingredient composition for Abike Olororo refill vegetable oils (Soya Oil & Olein).",
+        "badge":  "Product Ad",
+        "cover":  "assets/brands/Abike Olororo/abike-oil-bottles.jpg.png",
+        "brand":  "Abike Olororo",
+        "title":  "One Brand. Different Oils. — Abike Olororo Product Poster",
+        "isCarousel":  false
+    },
+    {
+        "id":  "abike-oil-pour",
+        "category":  "Posters & Flyers",
+        "tags":  [
+                     "Food Branding",
+                     "Culinary",
+                     "Cooking Oil",
+                     "Campaign",
+                     "Abike Olororo"
+                 ],
+        "desc":  "Appetizing culinary campaign flyer featuring a dynamic golden oil stream pouring into cookware with doodle food sketches and clear refill call-to-action.",
+        "badge":  "Campaign Ad",
+        "cover":  "assets/brands/Abike Olororo/abike-oil-pour.jpg.png",
+        "brand":  "Abike Olororo",
+        "title":  "Every Meal Has A Beginning — Abike Olororo Culinary Campaign",
+        "isCarousel":  false
+    },
+    {
+        "id":  "ask-abike-quote",
+        "category":  "Social Media",
+        "tags":  [
+                     "Thought Leadership",
+                     "Corporate",
+                     "Quote Card",
+                     "Social Media",
+                     "Ask Abike"
+                 ],
+        "desc":  "Executive thought-leadership social card discussing organizational ethics, fairness, and leadership trust for the Ask_Abike professional brand.",
+        "badge":  "Thought Leadership",
+        "cover":  "assets/brands/Ask_Abike/ask-abike-quote.jpg.png",
+        "brand":  "Ask Abike",
+        "title":  "When Favoritism Replaces Fairness — Executive Thought Leadership",
+        "isCarousel":  false
+    },
+    {
+        "id":  "creaverse-instagram",
+        "category":  "Social Media",
+        "tags":  [
+                     "Brand Identity",
+                     "Social Media",
+                     "Visual Strategy",
+                     "Agency Ad",
+                     "Creaverse"
+                 ],
+        "desc":  "Surrealist agency campaign graphic illustrating holistic brand systems and visual identity beyond a simple app icon for Creaverse Studio.",
+        "badge":  "Brand Strategy",
+        "cover":  "assets/brands/Creaverse/creaverse-instagram.jpg.png",
+        "brand":  "Creaverse",
+        "title":  "Identity Goes Far Beyond The Icon — Creaverse Social Ad",
+        "isCarousel":  false
+    },
+    {
+        "id":  "creaverse-turtle",
+        "category":  "Social Media",
+        "tags":  [
+                     "Creative Direction",
+                     "Metaphor",
+                     "Agency Promo",
+                     "Social Media",
+                     "Creaverse"
+                 ],
+        "desc":  "High-concept metaphorical agency campaign featuring a tortoise on a speeding skateboard, symbolizing acceleration of brand trajectory through bold creative design.",
+        "badge":  "Agency Promo",
+        "cover":  "assets/brands/Creaverse/creaverse-turtle.jpg.png",
+        "brand":  "Creaverse",
+        "title":  "Speed Up Your Brand — Creaverse Agency Campaign",
+        "isCarousel":  false
+    },
+    {
+        "id":  "smoothiezee-pack",
+        "category":  "Restaurant & Menus",
+        "tags":  [
+                     "Packaging Design",
+                     "Restaurant",
+                     "Juice Bar",
+                     "Breakfast Combo",
+                     "Smoothiezee"
+                 ],
+        "desc":  "Custom triangular sandwich box packaging and freshly bottled cold-pressed juice promotional visual for Smoothiezee in Yaba, Lagos.",
+        "badge":  "Food Packaging",
+        "cover":  "assets/brands/Smoothiezee/smoothiezee-pack.jpg.png",
+        "brand":  "Smoothiezee",
+        "title":  "A Better Morning Starts Here — Smoothiezee Packaging & Promo",
         "isCarousel":  false
     },
     {
